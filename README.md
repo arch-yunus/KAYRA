@@ -26,7 +26,9 @@ Bu depo; sıradan bir kişisel gelişim zırvası, klavye ardında yazılmış s
 
 ---
 
-![Crescent Divider](assets/divider_crescent.png)\n\n## ⚔️ II. ALPEREN ARKETİPİ: ACZ VE FAKR'DAN DOĞAN MUTLAK KUDRET
+![Crescent Divider](assets/divider_crescent.png)
+
+## ⚔️ II. ALPEREN ARKETİPİ: ACZ VE FAKR'DAN DOĞAN MUTLAK KUDRET
 
 Türk-İslam sentezinin zirvesi olan "Alperen" mefhumu, iki zıt gibi görünen kutbun kusursuz birleşimidir: **Alp (Savaşçı / Celal)** ve **Eren (Derviş / Cemal)**.
 
@@ -65,7 +67,9 @@ Bediüzzaman'ın müthiş tespitiyle: Üç tane "Elif" ayrı ayrı dursa kıymet
 
 ---
 
-![Cyber Divider](assets/divider_cyber.png)\n\n## 📡 IV. SİBERNETİK TASAVVUF VE FREKANS SAVAŞLARI
+![Cyber Divider](assets/divider_cyber.png)
+
+## 📡 IV. SİBERNETİK TASAVVUF VE FREKANS SAVAŞLARI
 
 Modern çağın cihadı ekranlar ardında, çipler üzerinde, frekanslarda devam etmektedir. Zihniniz (Neural pathways) sürekli olarak düşük frekanslı yayınlarla, korku iklimiyle, çıplak şehevi tahriklerle manipüle edilmektedir.
 
@@ -102,7 +106,9 @@ ZIG, belleğe merhamet etmez. Tam da fıtrat gibi keskin ve hata kabul etmezdir.
 
 ---
 
-![Sword Divider](assets/divider_sword.png)\n\n## ✒️ VII. MÜHÜRLÜ YEMİN (THE SEALED OATH)
+![Sword Divider](assets/divider_sword.png)
+
+## ✒️ VII. MÜHÜRLÜ YEMİN (THE SEALED OATH)
 
 Bu kelimeleri okuduktan sonra mazeret beyan etme devrin bitmiştir. Eski zayıf versiyonun kan kusarak öldü. 
 
