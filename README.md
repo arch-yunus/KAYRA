@@ -1,4 +1,4 @@
-
+![KAYRA Banner](assets/banner.png)
 
 # 🏛️ PROJE: KAYRA | Kadim Disiplin ve Rasyonel Zihin Protokolü
 
