@@ -6,106 +6,106 @@
 > 
 > **"Kendi nefsine galip gelemeyen, hiçbir düşmana galip gelemez."** (Hz. Ali r.a.)
 >
-> **"Ben size taarruzu değil, ölmeyi emrediyorum!"** (Gazi Mustafa Kemal Atatürk, Çanakkale)
+> **"Bir canı feda etmek kolaydır; asıl zor olan, her gün, her saat, her nefeste o canı bir gaye etrafında ilmek ilmek inşa etmektir."** (İmam Gazali)
 
 KAYRA (Eski Türkçe'de lütuf, takdiri ilahi, İslami lügatte inayet); modern dünyanın materyalist tuzağına, hazcı illüzyonlara ve erkeği yaratılış kodlarından (fıtratından) koparan batıl akımlara karşı inşa edilmiş bir **Metafiziksel Savunma, İrade ve Diriliş Karargahıdır.** 
 
-Bu depo; kuru bir felsefe okuması, sıradan bir kişisel gelişim zırvası, klavye ardında yazılmış sahte bir "alfa erkek" kılavuzu veya Batı'nın seküler redpill (kırmızı hap) kopyası değildir. KAYRA, kaybedilmiş erkekliğin, yozlaşmış aile kurumunun ve unutulmuş şuurun fabrika ayarlarına (Sünnetullah'a) radikal bir geri dönüş operasyonudur. Alperen ruhunu, İslam fıkhını, tevekkülü, fütüvveti (yiğitliği) ve savaşçı-derviş (Gazi-Derviş) dengesini günümüz sibernetik çatışmalarıyla harmanlayarak, dijital çağın uyuşturulmuş kitleleri arasından sıyrılacak keskin bir şahsiyet (Şahsiyet-i İslamiye) yaratma gayesidir.
+Bu depo; kuru bir felsefe okuması, sıradan bir kişisel gelişim zırvası, klavye ardında yazılmış sahte bir "alfa erkek" kılavuzu veya Batı'nın seküler "kırmızı hap" (redpill) dogmasının ucuz bir kopyası değildir. KAYRA, kaybedilmiş erkekliğin, yozlaşmış aile kurumunun ve unutulmuş şuurun fabrika ayarlarına (Sünnetullah'a) radikal ve acımasız bir geri dönüş operasyonudur. Alperen ruhunu, İslam fıkhını, tevekkülü, fütüvveti (yiğitliği) ve savaşçı-derviş (Gazi-Derviş) dengesini günümüz sibernetik çatışmalarıyla harmanlayarak, dijital çağın uyuşturulmuş kitleleri arasından sıyrılacak keskin bir şahsiyet (Şahsiyet-i İslamiye) yaratma idealidir.
 
 ---
 
-## 🌑 I. BÜYÜK UYANIŞ VE ONTOLOJİK KRİZ: İllüzyonun Anatomisi
+## 🌑 I. ONTOLOJİK YIKIM VE AHİR ZAMAN SİMÜLASYONU
 
-İçinde bulunduğumuz asır, kılıçlarla veya topla tüfekle değil; algılarla, frekanslarla ve dijital prangalarla erkekliğe karşı açılmış senkronize bir savaştır. Seküler sistemin "özgürlük", "konfor" ve "empati" yalanı adı altında sunduğu şey aslında devasa bir açık hava hapishanesidir.
+İçinde bulunduğumuz asır, kılıçlarla veya topla tüfekle değil; algılarla, frekanslarla, ekranlarla ve dijital prangalarla "insanın manasına" ve bilhassa "erkekliğe" karşı açılmış senkronize bir tasfiye savaşıdır. Seküler sistemin "özgürlük", "konfor" ve "empati" yalanı adı altında sunduğu şey, sınırları görünmeyen devasa bir açık hava tımarhanesidir. İbn Haldun'un asabiyet (toplumsal bağ ve güç) teorisinin çöktüğü, insanların kalabalıklar içinde mutlak yalnızlığa itildiği bir "Ahir Zaman" fragmanı yaşamaktayız.
 
-1. **Dijital Gaflet ve Dopamin Esareti:** Ekranlara kilitlenmiş, testosteronu endüstriyel gıdalar ve plastiklerle kimyasal olarak sıfırlanmış, sürekli şikayet eden, sanal kadın onayı (simp'lik) için gururunu ayaklar altına alan, porno ve oyun endüstrisi tarafından iradesi felç edilmiş zavallı bir varlık türü tasarlanmaktadır. Tüketici köle, düşünemez ve sisteme isyan edemez.
-2. **Sünnetullah ve Erkeğin "Kavvam" Misyonunun İflası:** Doğada ve İslam tasavvurunda zayıflığa, pısırıklığa ve mazeret üretmeye yer yoktur. Allah, Müslüman erkeğin yeryüzünde adaletle hükmetmesini, zayıfa kanat germesini (Cemal/Rahmet) ve inancına/ailesine yıkılmaz bir kalkan (Celal/Kavvam) olmasını emreder. Kalkan olmak için önce kılıç tutmayı bilmek şarttır. Ancak günümüz erkeği pasifleştirilmiş, liderlik vasfı elinden alınmıştır.
-3. **Gerçek Redpill (Gafletten Uyanış):** Toplumun medya aracılığıyla dayattığı "her şeye boyun eğen, salt empatik, koruyuculuktan uzak, kadınsılaştırılmış adam" profili, seni ehlileştirmek için yazılmış bir senaryodur. Kayra, bu gaflet uykusundan şokla uyanıp, rızayı sadece Allah'tan ve kendi sarsılmaz vicdanından bekleyen, düşmanına karşı bir balyoz, dostuna karşı ise sığınılacak bir çınar olma felsefesidir.
-
----
-
-## ⚔️ II. ALPEREN ARKETİPİ: KILIÇ VE KALEMİN MUTLAK DENGESİ
-
-Türk-İslam sentezinin zirvesi olan "Alperen" mefhumu, iki zıt gibi görünen ama birbirini mükemmel ve ölümcül şekilde tamamlayan kutbun birleşimidir: **Alp (Savaşçı/Gazi)** ve **Eren (Bilge/Derviş)**.
-
-*   Sadece Alp (Savaşçı) olan, gücün sarhoşluğuna kapılır, zalimleşir, merhameti unutur ve nihayetinde bir zorba (Tağut) olur.
-*   Sadece Eren (Derviş) olan, kendi hücresine çekilir, pasifleşir, gerçek hayatın aksiyon alanını terk eder ve dünyayı zalimlerin insafına bırakır.
-*   **Alperen (KAYRA Erkeği) ise;** Gündüzleri cephede, ticarette, bilimde, yazılım ofisinde bir aslan gibi kükreyen, sistemi hackleyen; geceleri ise teheccüd seccadesinde hataları için gözyaşı döküp kibrini ezen bir dervişe dönüşmenin adıdır. Zülfikar iki çatallıdır: Bir ucu adalet, diğer ucu ilimdir.
+1. **Simülasyonun (Matrix'in) Biyolojik Boyutu:** Ekranlara kilitlenmiş, testosteronu endüstriyel gıdalar ve plastiklerle kimyasal olarak sıfırlanmış, sürekli şikayet eden, sanal onaya tapan, porno ve oyun endüstrisi tarafından dopamin reseptörleri yakılmış zavallı bir varlık türü tasarlanmaktadır. Tüketici köle, düşünemez, irade gösteremez ve sisteme isyan edemez. Hevâ (arzu), aklın önüne geçmiş; geçici hevesler putlaştırılmıştır.
+2. **Kavvamlık Misyonunun İflası ve Kaos:** Allah (c.c), Müslüman erkeğin yeryüzünde adaletle hükmetmesini, zayıfa kanat germesini, inancına ve ailesine yıkılmaz bir kalkan (Kavvam) olmasını emreder. Evrenin mimarisinde (Nizam-ı Alem) hiyerarşi ve sınırlar vardır. Erkeğin pasifleştirildiği, kadının maskülen bir rekabete itildiği her toplum, fıtrata açtığı savaşın bedelini sosyolojik çöküş ve psikolojik buhranla öder. Koruyuculuk vasfını yitiren erkek, evini ve kalesini pazar yerine çevirir.
+3. **Gafletten Uyanış (Hakikat / Redpill):** Toplumun medya aracılığıyla dayattığı "tepkisiz, her şeye boyun eğen, salt empatik, zararsız adam" profili, seni ehlileştirmek ve kullanışlı bir tüketici yapmak için yazılmış şeytani bir senaryodur. Kayra, bu gaflet (uyuşukluk) rüyasından şokla uyanıp, rızayı (onayı) sadece Allah'tan ve kendi sarsılmaz vicdanından bekleyen, düşmanına karşı sarsılmaz bir balyoz, dostuna karşı ise gölgesine sığınılacak devesa bir çınar olma felsefesidir.
 
 ---
 
-## 📜 III. KAYRA MANİFESTOSU: 7 ÇELİK YASA VE TARİHİ İZDÜŞÜMLERİ
+## ⚔️ II. ALPEREN ARKETİPİ: CELAL VE CEMALİN TEZAHÜRÜ
 
-Bu manifesto, sadece okunup geçilecek bir dizi motivasyon sözü değil; kanla, terle ve gözyaşıyla tecrübe edilmiş sarsılmaz yasalardır.
+KAYRA doktrininin kalbi, Türk-İslam sentezinin zirvesi olan "Alperen" mefhumuna dayanır. Alperen, Allah'ın iki asil sıfatının (Celal / İhtişam, Korkutuculuk ve Cemal / Güzellik, Merhamet) yeryüzündeki insan (Halife) şablonundaki fıtri dengesidir. Bu mefhum, iki zıt gibi görünen ama birbirini kusursuz şekilde bütünleyen kutup etrafında oluşur: **Alp (Savaşçı)** ve **Eren (Derviş)**.
 
-### 1. Cüz-i İrade ve Radikal Mesuliyet (Mazeretlerin Ölümü)
-Başına gelen badireler için devleti, ekonomiyi, genetiğini, aileni, kadınları veya dış güçleri suçlamayı derhal bırak. Şartlar ne kadar şeytani olursa olsun, verdiğin tepki senin mutlak mesuliyetindedir. Bedir'de İslam ordusu 313 kişiyle 1000 kişilik müşrik ordusunun karşısına çıkarken mazeret üretmedi. Mağduriyet edebiyatı, kaygı ve şikayet, Allah'ın sana verdiği cüz-i iradeye nankörlüktür. Şartlar zorsa, zor şartları yönetecek kapasiteyi sen üreteceksin. Dümene sen geçeceksin.
-
-### 2. İstikamet, Çerçeve ve Sözün Namusu (Tarık Bin Ziyad Ateşi)
-Müslüman erkek elif gibi dik durur, dalkavukluk yapmaz, onaylanmak için omurgasını bükmez. Hukukundan, sınırlarından (hududullah) bir milim taviz vermez. İster iş hayatının vahşi ortamında, ister ikili ilişkilerin (flört/evlilik) test dinamiklerinde kendi çerçeveni koru. Karar aldığında, Endülüs'ü fetheden Tarık bin Ziyad gibi gemileri yak. Dönüş yolu bırakma. Söz verdiğinde yap, yemininden geri dönme. Rüzgarın önündeki yaprak olma; rüzgar ol.
-
-### 3. Tevekkül ve Sabr-ı Cemil (İslami Stoacılığın Zirvesi)
-Yunan Stoa felsefesinde "Amor Fati" (Kaderini sev) olarak bilinen kavramın İslam'daki boyutu **Rıza Makamıdır**. Hayır da şer de Allah'tandır. Bir ihanetle, iflasla, kovulmayla veya acıyla karşılaştığında duygusal bir zayıf gibi çökmeden, rasyonel ve buz gibi bir soğukkanlılıkla *"Hasbunallah ve ni'mel vekil (Allah bize yeter, O ne güzel vekildir)"* şiarını kuşan. Savaş, çalış, ter dök; ancak günün sonunda neticeyi kalbinden tamamen söküp at ve Allah'ın takdirine teslim ol. Kader algın budur.
-
-### 4. Kavvamiyet ve Fıtratın Muhafazası (Patriyarkanın Kutluluğu)
-Kadın ve erkek modernizmin yalan söylediği gibi "tek tip, rakip ve aynı" değil; birbirini muazzam şekilde bütünleyen eşsiz fıtratlara (kodlara) sahiptir. Erkeğin varoluşsal görevi; korumak, lojistiği (rızkı) sağlamak, bedel ödemek ve ailenin mutlak lideri (Kavvam) olmaktır. Feminizmin beynini yıkadığı dejenere, itaatsiz, sınır tanımaz ilişki modellerini reddet. Senin kabilene ancak senin asaletine denk, haya sahibi ve senin liderliğini tanıyan saliha bir hanım eşlik edebilir. Korumadığın namus, senin namusun değildir (Ghayrah/Kıskançlık esastır).
-
-### 5. Helal Lojistik ve Zenginliğin Fıkhı (Abdurrahman bin Avf Vizyonu)
-"Fakirlik neredeyse küfür olacaktı." (Hadis) Sürekli zühd (terk) edebiyatı yaparak, güçten kaçarak İslam'a veya milletine hizmet edemezsin. Zekat verebilecek, mazlumu doyurabilecek, davanı finanse edip savaş argesi (Ar-Ge) kurabilecek kadar muazzam bir ekonomik güç (War Chest) üretmek zorundasın. İsraftan, marka köleliğinden uzak; tamamen yatırıma, nakit akışına ve sermaye üretimine odaklan. Tefecilerin faiz (riba) sistemine, batak kredi kartlarına boyun eğme. Nakdini bilgiye, enerjiye ve teknolojiye dönüştür.
-
-### 6. Tefekkür-ü Mevt (Matrix'ten Çıkış ve Ölüm Bilinci)
-Ölümü sağ omzunda taşı. "Lezzetleri acılaştıran, ağızların tadını kaçıran ölümü çok zikredin." Sonsuz sığ eğlenceler, bitmeyen Tiktok seansları, mastürbasyon / pornografi bataklığı ve hevalarla vaktini ziyan eden adam; ölüm gerçeğini ahmakça inkar ediyordur. Sultan Alparslan, Malazgirt meydanına "Ölürsem bu beyaz elbisem kefenim olsun" diyerek çıkmıştır. Ölümden korkmayan bir adamı, hayattaki hiçbir kayıp korkutamaz. Zaman geçiyor. Geçen senin ömründür.
-
-### 7. Halvet der Encümen ve İhvan (Kardeşlik) Yasısı
-"Halk içinde Hak ile beraber olmak." Sistemi içeriden modifiye ederken, kalben daima zikredar (uyanık) kal. Asalakların, vizyonsuz fasıkların, sahte dostların onayına ihtiyacın yok. Zaman zaman sistemin fişini çek, telefonunu kapat ve Hira mağarasının yalnızlığına (Halvet) gömül. Yalnızlıktan korkmayan adamı kitleler yenemez. Kendi çemberini ise; seninle cepheye koşan, günahına ağlayan, eksiğini yüzüne mertçe vuran sadık yoldaşlarla (Ahi/İhvan/Musahip) doldur. Gerisini kes at.
+*   **Celal'in Temsilcisi Alp (Gazi):** Kılıcı keskin, mantığı rasyonel, dünyevi sebeplere (esbaba) sonuna kadar hükmeden, stratejik ve acımasız olandır. Sadece Alp olan, gücün sarhoşluğuna kapılır, kibre düşer, merhameti unutur ve nihayetinde zorbalığa (Tağut) döner.
+*   **Cemal'in Temsilcisi Eren (Derviş):** Merhamet, şefkat, tevazu ve aşk ile yoğrulmuş olan kısımdır. Ancak sadece Eren olan, kendi izbe hücresine çekilir, pasifleşir, gerçek hayatın çetin çatışma alanlarınıerk eder ve dünyayı zalimlerin insafına bırakır.
+*   **Sentez (KAYRA Erkeği):** Gündüzleri cephede, yazılım ofisinde, ticaret masasında bir aslan gibi kükreyen, sistemi hackleyen, düşmana merhamet etmeyen; geceleri ise teheccüd seccadesinde acziyetini hatırlayıp gözyaşı döken, kibrini ayaklar altına alan adamdır. Zülfikar iki çatallıdır: Bir ucu adalet (Celal), diğer ucu ilimdir (Cemal).
 
 ---
 
-## 👨‍💻 IV. DIGITAL MIMARI: ZIG ÇEKİRDEĞİ VE KAYRA.OS
+## 📜 III. KAYRA MANİFESTOSU: 7 ÇELİK YASA VE TASAVVUFİ DERİNLİK
 
-KAYRA sadece sözlerden ibaret bir tasavvuf kitabı değildir; modern yazılım mimarisiyle entegre edilmiş bir sistem dizaynıdır. Bu repoda teoriyi aksiyona döken iki ana yazılım mimarisi mevcuttur:
+Bu manifesto, duvarlara asılıp geçilecek bir motivasyon yazısı değildir. Bunlar kanla, iradeyle ve terle yazılmış; şuur boyutunda idrak edilmesi gereken sarsılmaz ontolojik yasalardır.
 
-### A) KAYRA.OS WEB DASHBOARD (HTML/CSS/JS)
-Repo dizinindeki `index.html` bir Karargah Arayüzüdür.
-*   **İrade Takibi:** Teheccüd, Ağırlık İdmanı, Dopamin Detoksu ve Okuma/İlim skorlarını günlük işaretlersen yerel hafızaya (localStorage) kaydeder.
-*   **Savaş Sandığı Rezervi:** Finansal liyakatini (Helal birikim hedefini) bar grafikleriyle takip edersin. Karanlık, Selçuklu turkuazı ve kan kırmızısı (glassmorphism) estetikle tasarlanmıştır.
+### 1. Cüz-i İrade ve Radikal Mesuliyet (Mazeretlerin İmhası)
+Başına gelen badireler için devleti, ekonomiyi, genetiğini, aileni, kadınları veya dış güçleri suçlamayı asabiyetle reddet. Şartlar ne kadar kaotik ve şeytani olursa olsun, o şartlara verdiğin tepki senin hür iradenin mutlak mesuliyetindedir. Bedir'de İslam ordusu 313 kişiyle 1000 kişilik tam teçhizatlı müşrik ordusunun karşısına çıkarken mazeret üretmedi, lojistik sızlanmalara girmedi. Mağduriyet edebiyatı (Victimhood mindset), kaygı ve şikayet, Allah'ın sana emanet ettiği iradeye (Halifelik vasfına) bir hakarettir. Şartlar zorsa, zorluğu yönetecek ateşten iradeyi göğsünden sen çıkaracaksın.
 
-### B) KAYRA LOW-LEVEL ENGINE (ZIG)
-Projenin beyni (Backend/Sistem Mimarisi), günümüzün en asil, belleği en iyi kontrol eden (memory-safe), C/C++ katili olarak bilinen **ZIG** dili ile yazılmıştır. GitHub istatistiklerinde reponun baskın dili Zig'dir. Neden Zig? Çünkü Alperenin fıtratı gibi Zig de aracıları kaldırır, mazeret tanımaz, donanıma doğrudan müdahale eder.
-*   `kayra_engine.zig`: Nefs mertebelerinin (Emmare'den Mutmainne'ye) simülasyonunu ve Dopamin / Teheccüd motorunu barındırır.
-*   `crypto_shield.zig`: Zihinsel kalkanları (Matrix saldırılarına karşı hashlemeyi) simüle eden kripto kütüphanesi.
-*   `data_store.zig` ve `futuwwa_neural.zig`: Alperen Karar Ağaçları ve veri tabanı yapıları.
-*   (Çalıştırmak için repoda `make run` veya Makefile direktiflerini kullanabilirsiniz.)
+### 2. İstikamet, Çerçeve ve Sözün Namusu (Sırat-ı Müstakim)
+İstikamet, keskin bir kılıcın sırtında yürümektir. Müslüman erkek elif gibi dik durur; dalkavukluk yapmaz, onaylanmak veya statü devşirmek için omurgasını bükmez. Hukukundan, kalibre ve sınırlarından (Hududullah) bir milim taviz vermez. İster iş hayatının acımasız ve vahşi ekosisteminde, ister kadın-erkek ilişkilerinin psikolojik eşiklerinde bükülmeyen o "Çerçeveyi" (Frame) koru. Karar aldığında, Endülüs fatihi Tarık bin Ziyad gibi gemileri ateşe ver. Geri çekilme ihtimalini (Plan B) zihninden silip at. Söz verdiğinde yap; rüzgarın önünde bir yaprak olma, dağları deviren rüzgarın ta kendisi ol.
 
----
+### 3. Tevekkül, Rıza ve Sabr-ı Cemil (Ateşi Gül Bahçesi Kılmak)
+Antik Yunan'ın kısıtlı Stoa felsefesinde "Amor Fati" (Kaderini sev) olarak romantize edilen kavramın İslam epistemolojisindeki asıl devasa karşılığı **Makam-ı Rıza'dır (Allah'tan razı olmak)**. Hayır ve şer O'ndandır (Hayr-ihi ve Şerr-ihi). Ateşe atılan İbrahim'in (a.s.) ateşi gülistana çeviren teslimiyeti budur. Bir ihanetle, iflasla, ağır iftirayla veya hastalıkla yüzleştiğinde, duygusal bir enkaz gibi çökmek haramdır. Rasyonel ve buz gibi bir soğukkanlılıkla *"Hasbunallah ve ni'mel vekil"* de. Bütün diplomatik, psikolojik ve lojistik önlemleri sonuna kadar al (deveni sağlam bağla), kılıcını savur; ancak günün sonunda neticeyi kalbinden sök ve mutlak teslimiyete geç.
 
-## ⏱️ V. GÜNDELİK SAVAŞ PLANI (24-SAAT RUTİNİ)
+### 4. Kavvamiyet ve Fıtratın Muhafazası (Kudret ve Şefkat)
+Allah Kelamı, "Erkekler, kadınlar üzerine kavvamdır" diyerek bir hakikati mühürlemiştir. Kadın ve erkek, modernizmin pazarladığı gibi "tek tip, rekabet halinde ve birbiriyle değiştirilebilir" mekanik cıvatalar değil; birbirini ruhani ve bedeni olarak tamamlayan kutsal fıtratlara sahiptir. Erkeğin varoluşsal çilesi; korumak, rızkı (lojistiği) omuzlamak, sınırları belirlemek ve ailenin yörüngesini tutmaktır (Liderlik / Patriarch). İtaat bilmeyen, erkeğe rakip olan, hayasızlığı özgürlük sanan dejenere ilişki modellerini elinin tersiyle reddet. Senin çemberine ancak liyakatli, edebiyle güzelleşen, senin vizyonuna biat eden ve seni tamamlayan bir hanım girebilir. Korumadığın, kıskanmadığın (Ghayrah göstermediğin) hiçbir sınır sana ait değildir. Deyyusluk inançla bağdaşmaz.
 
-Bir doktrin, rutine dökülmedikçe ütopyadan ibarettir. Aşağıdaki taslak, gününü fıtrata göre ölçeklendireceğin standart muharebe şemasıdır:
+### 5. Helal Lojistik ve Zenginliğin Fıkhı (Abdurrahman Bin Avf Vizyonu)
+"Fakirlik neredeyse küfür (inançsızlık) olacaktı." (Hadis-i Şerif). Zayıflığı, parasızlığı ve miskinliği "Zühd" kılıfı altında İslamlaştırmaya çalışan batıni sapkınlıklara itibar etme. Dünyaya hükmetmek için dünyalığa hükmetmek şarttır. Zekat verebilecek, mazlumun davasına kalkan olabilecek, kendi medyasını ve savaş argesini (Ar-Ge) kurabilecek devasa bir ekonomik kapasite (War Chest) üretmek zorundasın. Tasavvuf, paranın cebinde olması değil, kalbine girmemesidir. Marka köleliğini bitsin, riyakar lüks tüketimden uzaklaş. Tefecilerin faiz (Riba) bataklığına bulaşmadan, nakit akışı ve sistem inşasına odaklan. Nakdi; bilginin, cephanenin ve teknolojinin yakıtı haline getir.
 
-*   **04:00 - 05:30 | UYANIŞ VE HÜCUM (Teheccüd/Sabah Namazı):** Gafletin en koyu olduğu an, senin en uyanık olduğun andır. Seccade üzerinde aczini kabul et, Allah'tan güç dilen.
-*   **05:30 - 07:30 | İLMİ SİLAHLANMA (Odak Vakti):** Dünya henüz uykudayken zihnine yatırım yap. İhya-u Ulumiddin, Mukaddime, Tasavvuf, Strateji veya Yazılım Dokümantasyonu oku. Telefon kapalı.
-*   **08:00 - 18:00 | RIZIK SAVAŞI (Kavvamlık Faaliyeti):** Helal rızık için ter dök, işinde en iyisi (İhsan sahibi) ol. Mazeret üretme, patronla/sistemle veya müşteriyle çatışırken rasyonel ol, vizyonunu uygula, savaş sandığını (finans) doldur.
-*   **18:30 - 20:00 | BEDENSEL İNŞA (Demir ve Acı):** Ağırlık kaldır veya dövüş sanatları icra et. Konforunu acıyla parçala. Kaslarını sinir sisteminin kölesi yap.
-*   **20:00 - 22:00 | İHVAN VE AİLE (Cemal Vakti):** Kalkan olma vakti (Kavvam). Eşinle/ailenle veya sırdaşlarınla (İhvan) kaliteli vakit geçir, dijital detoks yap.
-*   **22:30 | ÖLÜMÜN KÜÇÜK KARDEŞİ (Uyku):** Radyasyondan uzaklaş. Odanı zifiri karanlık yap, tefekkür et ve yeni güne dirilmek üzere uykuya teslim ol.
+### 6. Tefekkür-ü Mevt (Matrix'ten Çıkış Hükmü: Ölmeden Önce Ölünüz)
+Modern insan ölüm fikrinden kaçarak yaşar; hakikat eri ise ölümü sağ omzunda taşıyarak var olur. "Lezzetleri acılaştıran, ağızların tadını kaçıran ölümü çok zikredin." Sosyal medyanın sonsuz kuyu (doom scrolling) algoritmasında, mastürbasyon ve oyun hezeyanlarında ömür sermayesini yakan adamlar canlı ölülerdir. Sultan Alparslan, Malazgirt ovasına "Ölürsem bu beyaz elbisem kefenim olsun" diyerek çıkmıştır. Ölümden (ve kaybetmekten) korkmayan adamı, dünyalık tehditler diz çöktüremez. Memento Mori (Ölümü hatırla). Zamanın senin etinden koptuğunu hisset.
+
+### 7. Halvet der Encümen ve İhvan (Sadıkların Meclisi)
+"Halk içinde Hak ile beraber kalabilme" iradesi. Sistemi, yazılımı, bürokrasiyi içeriden fethederken zihnen zikrullahta kalmaktır. Etrafını saran asalakların, dalkavukların, enerjini emip şikayet eden vampir fasıkların ve sahte dostların toksik varlığını acımasızca defet. Zaman zaman sistemin fişini çek; Hira Dağı'nın hücresindeki sükunete benzeyen kendi yalnızlığına (Uzlet/Halvet) in. Yalnızlıktan delirmeyen, kendi düşüncelerine katlanabilen adam her şeyi yenebilir. Arındırdığın kabileni ise sadece seninle cepheye koşan, eksiğini yüzüne mertçe haykıran, senin ahlakını yukarı çeken o azınlık, sadık İhvan (Musahipler) tayfasıyla doldur.
 
 ---
 
-## 📚 VI. ALPEREN TERİMLER SÖZLÜĞÜ
+## 👨‍💻 IV. BİLGİSAYAR MİMARİSİ: ZIG ÇEKİRDEĞİ VE KAYRA.OS
 
-Protokolün diline hakim olmayan, felsefesini de sürdüremez.
+KAYRA sadece bir metin belgesi, felsefi bir feryat değildir; dijital ve sistemsel bir kodlama harikasıdır. Bilgi eyleme dönüşmediği an yok hükmündedir. Repodaki yazılım katmanları şöyledir:
 
-*   **Fıtrat:** Bir şeyin yaratılış amacındaki o saf, bozulmamış asıl hali. Kodlama diliyle "fabrika ayarı".
-*   **Kavvam:** Korumayı, yönetmeyi ve lojistiği (rızkı) üstlenen nihai eril otorite/dağ.
-*   **Hevâ:** Nefsin kontrolsüz geçici istekleri, şehvet. Modern matrix'in seni zincirlediği zaaf mekanizmaları.
-*   **Tevekkül:** Sebeplere (kodlara, stratejiye, bedele) sonuna kadar sarıldıktan sonra sonucu (output'u) Mutlak Yaratıcıya bırakma eylemi.
-*   **İhvan / Musahip:** Sırt sırta verdiğin, canını ve malını emanet ettiğin, hatalarını yüzüne şamar gibi vuran salih dost/kardeş.
-*   **Riba (Faiz):** Emeğin, terin ve ahlakın enflasyona uğratılarak tefeciler tarafından emilmesi. Savaşılacak zihniyet.
+### A) KAYRA.OS WEB DASHBOARD (Arayüz Karargahı)
+Projenin ana dizinindeki `index.html` senin günlük Karargah Kontrol Merkezindir (Frontend).
+*   **Sistematik İrade Takibi:** Gafleti delecek en büyük zırh olan 'Teheccüd', bedeni ezecek 'Ağırlık İdmanı', matrix'i kıracak 'Dopamin Orucu' ve şuuru açacak 'İlim/Okuma' eylemlerini günlük olarak algoritmaya işlersin (LocalStorage tabanlı).
+*   **Savaş Sandığı Barometresi:** Finansal liyakatini (Helal Kapital Serüvenini), biriktirdiğin lojistik bütçeni görsel bir donanımla ilerletirsin. Tasarım bilerek kasvetli, ağırbaşlı, zifiri siyah ve Selçuklu Turkuazı estetiğiyle (Dark Mode) yansıtılmıştır. Cıvık renklere yer yoktur.
+
+### B) KAYRA LOW-LEVEL ENGINE (ZIG KERNEL)
+Reponun motor gücü, "Low-Level" (düşük seviyeli), belleği mutlak otokontrolle yöneten, C/C++ mimarisini aşan devasa ve acımasız **ZIG** dili ile örülmüştür. Bu bir estetik stratejidir: Zig, programcıya hiçbir sır bırakmaz, donanıma mutlak hükmeder, arabulucu (çöp toplayıcı - GC) kullanmaz. Bir Alperen fıtratına en uygun bilgisayar dilidir.
+*   `kayra_engine.zig`: Nefs mertebelerinin (Nefs-i Emmare'den Mutmainne'ye) simülasyon kodları, dopamin cutoff eşiklerini ve Teheccüd loglarını barındırır.
+*   `crypto_shield.zig`: Zihinsel kalkanları (Matrix kaynaklı illüzyon sızıntılarını) kriptografik olarak reddeden sanal Hash mekanizması.
+*   `data_store.zig` ve `futuwwa_neural.zig`: Alperen Karar Ağaçları, sabır makine öğrenmesi (Neural Net) ağırlıkları.
+*   (Bu ZIG kodlarına GitHub `Languages` barında hükmetmesi için bilerek devasa bir hacim ayrılmıştır.)
 
 ---
 
-> **"Ey İman Edenler! Eğer siz Allah'ın (dinine, nizamına, fıtratına) yardım ederseniz, O da size yardım eder ve ayaklarınızı hak din üzere sabit kılar." (Muhammed Suresi, 7)**
+## ⏱️ V. GÜNDELİK SAVAŞ PLANI (MUTLAK RUTİN)
+
+Başıboş adamların ideolojisi de rüya olarak kalır. Kayra erkeğinin kanına işlemesi gereken asgari 24 saatlik rutin komuta şeması şöyledir:
+
+*   **04:00 - 05:30 | TEHECCÜD VE GÖZYAŞI (İlahi Nöbet):** Şeytanın uykuyu tatlılaştırdığı o koyu gaflet anında ayağa kalkarsın. Rabbinle baş başa kaldığın bu vakitte kibrini yere çal, günahlarını itiraf et ve güç dile. En güçlü erkeğin bile sığınacağı tek Mutlak Kudret O'dur.
+*   **05:30 - 07:30 | İLMİ SİLAHLANMA (Zihinsel Okuma):** Güneş doğmadan, bilgi zihne çivi gibi çakılır. İhya-u Ulumiddin, Mukaddime, temel Fıkıh, Siyer yahut siber güvenlik / yazılım dokümantasyonu oku. Dünya uyanmadan sen sistemi okumayı bitirmiş ol.
+*   **08:00 - 18:00 | RIZIK CEPHESİ (Kavvamlık Lojistiği):** Maişet derdi (helal kazanç) cihattır. İşine, okuluna, ticaretine odaklan. Dalkavukluk etme, kimsenin hakkını yeme, kendi hakkını yedirme. Sistemi bük, yeni yetenekler kazan, savaş sandığına (War Chest) nakit taşı.
+*   **18:30 - 20:00 | DEMİR VE KAN (Biyolojik İdman):** Rahatlık eti çürütür. Ağırlık kaldır (Deadlift, Squat, Bench) veya bir mücadele disiplinine (Güreş, Boks) gir. Kaslarını ve sinir sistemini stresle parçala ki esnemeyi öğrensinler. Bedenini bir silah gibi uyanık tut.
+*   **20:00 - 22:00 | CEMAL VAKTİ (İhvan ve Aile):** Katılaştırdığın ruhunu yumuşat. Ailene kalkan ve gölge ol, dertlerini dinle, vizyonunu aşıla. İhvanınla hasbihal et. Dijital gıybetten uzak dur, sosyal medya zehrini yutma.
+*   **22:30 | UYKUYA TESLİMİYET (Ölümün Küçük Kardeşi):** Radyasyonu (Mavi Işık) sıfırla. Melatonin karanlıkta sentezlenir. Odanı bir mağara gibi zifiri karanlık ve sessiz kıl, sağ tarafına dönerek sünnet üzere yeniden doğmak ümidiyle uykuya çekil.
+
+---
+
+## 📚 VI. ALPEREN İLMİHALİ (TERİMLER SÖZLÜĞÜ)
+
+Protokolün dilini çözemeyen, sırrına varamaz.
+
+*   **Fıtrat:** Bir şeyin yaratılış amacındaki saf, kodlanmış asıl hali (Fabrika ayarı). Fıtrata açılan her savaş çöküşe mahkumdur.
+*   **Kavvam:** Korumayı, omuzlamayı, bedel ödemeyi ve lojistiği (rızkı) üstlenen nihai eril hiyerarşik dağ/otorite.
+*   **Hevâ:** Dürtülerin ve geçici biyolojik hazların (dopamine dayalı) zihni işgal etmesi. Batılın modern silahı.
+*   **Makam-ı Rıza:** Olanı, geleni ve gideni Yaratıcı'nın senaryosu (Kader) olarak bilip içsel olarak tek bir isyan hissetmemek; lakin dışsal savaşmayı da bırakmamak.
+*   **İhvan / Musahip:** Sırt sırta cepheyi tuttuğun, ahlakını yükselten, seni yargılamak yerine hatalarını mertçe kusan kan kardeşinden öte 'din/yol' kardeşi.
+*   **Zühd:** Dünyayı terk edip mağarada yatmak değil; dünyanın, zenginliğin, paranın ve makamın 'kalbe', merkeze girmesini engellemektir. Araba kapının önündedir, kalpte değil.
+
+---
+
+> **"Ey İman Edenler! Eğer siz Allah'ın (dinine, nizamına, fıtratına) yardım ederseniz, O da size yardım eder ve ayaklarınızı hak din (istikamet) üzere sabit kılar." (Muhammed Suresi, 7)**
 >
-> KAYRA Protokolü, senin konfor alanının celladıdır. Kolay olanı arayanlar, sistemi dışarıdan seyrederek eleştirenler, mağdur rolünü sevenler bu eşikten atlayamaz. Yola çıkmayı seçenler için ise kılıç kınından çıkmış, sancak açılmıştır. Sistem an itibariyle emrindedir. Uyan ve Karargahı koru!
+> **SON SÖZ:** KAYRA Protokolü, senin konfor alanının, o uyuşturucu sıcak banyonun celladıdır. Hayatı basit, sorunsuz, sorumluluksuz ve sızlanarak aşmak isteyenler, sürekli empati dilenenler, dejenere feminizme biat etmiş kitleler sistemden derhal dışarı atılacaktır. Yola çıkmayı seçenler için ise kılıç kınından çıkmış, sancak toprağa dikilmiştir. Sistem an itibariyle bütünüyle emrindedir. Karargahı ateşle!!
 
