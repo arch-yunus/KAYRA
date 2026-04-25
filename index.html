@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAYRA | Alperen Disiplini ve Fütüvvet Protokolü</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-glow"></div>
+    
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="logo-container">
+            <h1 class="logo-text">KAYRA<span>.OS</span></h1>
+            <p class="logo-sub">Fütüvvet Protokolü</p>
+        </div>
+        <ul class="nav-links">
+            <li class="active" data-tab="dashboard"><i class="icon">🏛️</i> Karargah</li>
+            <li data-tab="modules"><i class="icon">📜</i> Modüller</li>
+            <li data-tab="warchest"><i class="icon">💰</i> Savaş Sandığı</li>
+        </ul>
+        <div class="sidebar-quote">
+            "Kuvvetli mümin, zayıf müminden daha hayırlıdır."
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-area">
+        
+        <!-- Banner Section -->
+        <header class="top-banner">
+            <img src="assets/banner.png" alt="KAYRA Banner" class="banner-img">
+            <div class="banner-overlay">
+                <h2>RADİKAL İRADE. MUTLAK TEVEKKÜL.</h2>
+                <p>Kendi karanlığına hükmedemeyen, dünyaya nizam veremez.</p>
+            </div>
+        </header>
+
+        <!-- DASHBOARD TAB -->
+        <section id="dashboard" class="tab-content active">
+            <div class="grid-container">
+                
+                <!-- Daily Discipline Tracker -->
+                <div class="card discipline-card">
+                    <h3 class="card-title">Günlük İrade Testi (Nefs Terbiyesi)</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="daily-progress"></div>
+                    </div>
+                    <ul class="checklist" id="daily-checklist">
+                        <li>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" data-points="25">
+                                <span class="checkmark"></span>
+                                <span class="task-text">Teheccüd / Gafletten Uyanış Erken Kalkışı</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" data-points="25">
+                                <span class="checkmark"></span>
+                                <span class="task-text">Ağır Beden İdmanı (Kuvvetli Mümin)</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" data-points="25">
+                                <span class="checkmark"></span>
+                                <span class="task-text">Dopamin Orucu (Sosyal Medya İzolasyonu)</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" data-points="25">
+                                <span class="checkmark"></span>
+                                <span class="task-text">İlim (30 Sayfa İhya, Tarih veya Mukaddime)</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Status / Rank -->
+                <div class="card status-card">
+                    <h3 class="card-title">Operasyonel Durum</h3>
+                    <div class="status-circle">
+                        <span id="completion-text">0%</span>
+                    </div>
+                    <p class="status-desc" id="status-desc">Uyku Modu. İradeyi kuşan.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODULES TAB -->
+        <section id="modules" class="tab-content">
+            <h2 class="section-heading">Protokol Modülleri</h2>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <h4>01. Biyolojik Sermaye</h4>
+                    <p>Sünnet beslenme, ağır demir, oruç ve heybetli vücut dili.</p>
+                    <button class="btn read-more">Okulları İncele</button>
+                </div>
+                <div class="module-card">
+                    <h4>02. Zihinsel Mühendislik</h4>
+                    <p>Gaflet detoksu, sabr-ı cemil, tevekkül ve kriz anında feraset.</p>
+                    <button class="btn read-more">Okulları İncele</button>
+                </div>
+                <div class="module-card">
+                    <h4>03. Sosyal Strateji</h4>
+                    <p>Kavvamlık şefaati, fasıkları eleme, İhvan ve kardeşlik ağı.</p>
+                    <button class="btn read-more">Okulları İncele</button>
+                </div>
+                <div class="module-card">
+                    <h4>04. Lojistik ve Güç</h4>
+                    <p>Faizsiz sermaye (Helal nakit), savaş sandığı ve entelektüel zırh.</p>
+                    <button class="btn read-more">Okulları İncele</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- WAR CHEST TAB -->
+        <section id="warchest" class="tab-content">
+            <div class="card warchest-card">
+                <h3 class="card-title">Savaş Sandığı Rezervi (Lojistik)</h3>
+                <p>İsrafı kes. Ribanın (Faizin) kölesi olma. Özgürlüğünü nakit mermilerle satın al.</p>
+                
+                <div class="input-group">
+                    <label>Aylık Helal Birikim Hedefi (₺)</label>
+                    <input type="number" id="target-saving" value="10000">
+                </div>
+                
+                <div class="input-group">
+                    <label>Mevcut Rezerve Edilen (₺)</label>
+                    <input type="number" id="current-saving" value="0">
+                </div>
+                
+                <div class="saving-visual">
+                    <div class="saving-fill" id="saving-fill"></div>
+                </div>
+                <button class="btn calculate-btn" id="update-chest">Lojistiği Güncelle</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
