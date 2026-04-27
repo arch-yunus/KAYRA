@@ -1,13 +1,16 @@
-.PHONY: build run clean
+BINARY = kayra-engine
+SRC = src/kayra_engine.zig
+
+all: build
 
 build:
-	@echo "Derleniyor: KAYRA Sistem Cekirdegi (ZIG)..."
-	@zig build-exe src/kayra_engine.zig -O ReleaseFast --name kayra_core
-	@echo "Derleme Tamamlandi!"
+	zig build
 
-run: build
-	@echo "KAYRA Engine Calistiriliyor:"
-	@./kayra_core
+run:
+	zig build run
+
+test:
+	zig build test
 
 clean:
-	@rm -f kayra_core kayra_core.o
+	rm -rf zig-out zig-cache

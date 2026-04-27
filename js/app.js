@@ -6,8 +6,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateChestBtn = document.getElementById('update-chest');
     const navLinks = document.querySelectorAll('.nav-links li');
     const tabContents = document.querySelectorAll('.tab-content');
+    const terminal = document.getElementById('terminal-view');
 
     const ranks = ["Gafil", "Nefs-i Emmare", "Nefs-i Levvame", "Yolcu", "Alperen"];
+
+    const addLog = (msg) => {
+        const p = document.createElement('p');
+        p.className = 'log-line';
+        p.innerText = msg;
+        terminal.appendChild(p);
+        terminal.scrollTop = terminal.scrollHeight;
+    };
 
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -46,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         completionText.innerText = `${percentage}%`;
         statusDesc.innerHTML = `Makam: <strong>${ranks[Math.floor(percentage / 21)] || "Alperen"}</strong>`;
         localStorage.setItem('kayra_state', JSON.stringify([...checkboxes].reduce((a, c) => ({...a, [c.id]: c.checked}), {})));
+        addLog(`İrade Testi Güncellendi: %${percentage} tamamlandı.`);
     };
 
     const updateWarChestVisuals = () => {

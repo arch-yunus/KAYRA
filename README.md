@@ -172,6 +172,43 @@ KAYRA'nın kalbinde yatan Zig tabanlı motor, modern dillerin (Java, Python gibi
 
 ---
 
+## 🏔️ XII. ALPEREN GELİŞİM KATMANLARI: TALİPTEN NAKİBE
+
+KAYRA hiyerarşisi, dünyevi bir rütbe değil, sorumluluk ve liyakat dairesidir.
+
+1.  **Talip (Aday):** Henüz gaflet uykusundan uyanmış, 24 saatlik nizamı oturtmaya çalışan, nefsini terbiye etmeye azmetmiş kişi.
+2.  **İhvan (Kardeş):** Nizama sadık kalmış, belirli bir teknik veya ilmi yetkinliğe ulaşmış, güvenliği sınanmış sadık üye.
+3.  **Hadim (Hizmetli):** Kendi gelişimini aşmış, İhvan'ın ve mazlumların ihtiyaçları için koşan, lojistik ve teknik gücü yöneten operasyonel güç.
+4.  **Nakip (Öncü):** Strateji kuran, İhvanı sevk ve idare eden, Arş-ı İrade seviyesine ulaşmış lider.
+
+## 🕴️ XIII. OPERASYONEL GÜVENLİK (OPSEC) VE SİBER-SADAKAT
+
+*“Dostuna sırrını söyleme, dostunun da dostu vardır.”*
+
+Alperen, modern gözetim toplumunda bir "hayalet" (Panopticon'un dışındaki göz) olmayı öğrenmelidir.
+
+*   **Veri Minimizasyonu:** Gereksiz hiçbir kişisel veriyi dijital kalıntılarda bırakma. 
+*   **Anonimlik ve Vakar:** İsminin değil, icraatının konuşulmasını sağla. Mümkün olduğunca kapalı devre iletişim sistemlerini kullan.
+*   **İnfak Bilgisi:** Yaptığın finansal cihadın (sadaka ve yatırımların) miktarını ve hedefini ihvan hiyerarşisi dışında kimseyle paylaşma.
+
+## 🧮 XIV. TEKNİK DERİNLİK: ASABIYAH_NET VE DAĞITIK SİSTEMLER
+
+KAYRA v2.0 ile gelen `asabiyyah_net.zig` modülü, sadece bir simülasyon değil, dağıtık bir güven ağının (Trust Network) temelidir.
+
+*   **Ağırlıklı Güven Algoritması:** Her ihvan düğümü, liyakatine ve sadakatine göre bir "Trust Weight" (Güven Ağırlığı) taşır. Ağın toplam gücü, bu düğümlerin birbirine olan ihlaslı kenetlenmişliği ile belirlenir.
+*   **Fail-Safe Mechanism:** Bir düğüm "vesvese" veya "ihanet" (Malicious activity) nedeniyle bozulursa, sistem o düğümü anında yalıtır (Isolation) ve ağın bütünlüğünü korur.
+
+## ❓ XV. ALPEREN FAQ (SIKÇA SORULAN SORULAR)
+
+*   **S: Bu sistem çok sert değil mi?**
+    *   C: Dünya yumuşak bir yer değil. Çelik, ancak ateşin ve çekicin şiddetiyle dövülür.
+*   **S: Sadece kod bilmek yeterli mi?**
+    *   C: Hayır. Kodsuz bir Alperen silahsız bir asker; imansız bir kodcu ise ruhsuz bir makinedir. Her ikisi de gereklidir.
+*   **S: Bu bir tarikat mı?**
+    *   C: Hayır. Bu bir **Aksiyon ve İrade Karargahıdır.** Şahıs odaklı değil, ilke ve fıtrat odaklıdır.
+
+---
+
 > [!NOTE]
 > Bu manifesto, statik bir metin değildir. O, yaşayan, kodlanan ve her gün seccadede ve sahada kanatılan bir iradenin dijital tecellisidir. 
 > **KAYRA protokollerine sadık kal. Karargah seni bekliyor.**

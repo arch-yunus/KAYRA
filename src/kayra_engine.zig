@@ -1,82 +1,73 @@
 const std = @import("std");
-const crypto = @import("crypto_shield.zig");
-const neural = @import("futuwwa_neural.zig");
-const db = @import("data_store.zig");
+const ZihinselKalkan = @import("crypto_shield.zig").ZihinselKalkan;
+const FutuwwaAI = @import("futuwwa_neural.zig").FutuwwaAI;
+const AsabiyyahNet = @import("asabiyyah_net.zig").AsabiyyahNet;
+const ScenarioRunner = @import("scenarios.zig").ScenarioRunner;
 
 /// ==============================================================================
-/// KAYRA KERNEL ENGINE (v2.0 - Alperen Architecture)
-/// Alperen Yapısal Disiplin ve İhlası Koruma Yazılımı Çekirdeği.
+/// KAYRA ENGINE v3.0 - ARŞ-I NİZAM (Supreme Order)
+/// Alperen Karargah Çekirdeği - Full Operational Suite.
 /// ==============================================================================
-
-pub const NefsLevel = enum {
-    Emmare, Levvame, Mulhime, Mutmainne, Radiye, Mardiyye, Safiye
-};
 
 pub const KayraEngine = struct {
     allocator: std.mem.Allocator,
     stdout: std.fs.File.Writer,
     dopamine_level: f32,
-    nefs_state: NefsLevel,
-    is_kavvam: bool,
-    database: db.MemoryStore,
-    shield: crypto.ZihinselKalkan,
-    ai_core: neural.FutuwwaAI,
+    nefs_level: f32,
+    kalkan: ZihinselKalkan,
+    futuwwa: FutuwwaAI,
+    asabiyet: AsabiyyahNet,
 
     pub fn init(allocator: std.mem.Allocator, writer: std.fs.File.Writer) !KayraEngine {
         return KayraEngine{
             .allocator = allocator,
             .stdout = writer,
-            .dopamine_level = 90.0,
-            .nefs_state = .Emmare,
-            .is_kavvam = false,
-            .database = try db.MemoryStore.init(allocator),
-            .shield = crypto.ZihinselKalkan.init(writer),
-            .ai_core = neural.FutuwwaAI.init(),
+            .dopamine_level = 0.5,
+            .nefs_level = 0.8,
+            .kalkan = ZihinselKalkan{ .integrity = 0.9, .vesvese_filter_on = true },
+            .futuwwa = FutuwwaAI.init(allocator),
+            .asabiyet = AsabiyyahNet.init(allocator),
         };
     }
 
     pub fn deinit(self: *KayraEngine) void {
-        self.database.deinit();
+        self.asabiyet.deinit();
     }
 
-    /// 04:00 - 05:30 | İLAHİ NÖBET (Teheccüd Dirilişi)
-    pub fn execute_teheccud(self: *KayraEngine) void {
-        self.stdout.print("\n[ PHASE ] 04:00 - Teheccüd Dirilişi Başlatıldı.\n", .{}) catch {};
-        self.dopamine_level -= 10.0;
-        self.nefs_state = .Levvame;
-        self.shield.activate();
-        self.ai_core.train_patience();
-        self.stdout.print("[ STAT ] İrade tahkim edildi. Nefs: {s}\n", .{@tagName(self.nefs_state)}) catch {};
-    }
-    
-    /// 05:30 - 07:30 | İLMİ KILIÇLANMA
-    pub fn execute_ilmi_kiliclanma(self: *KayraEngine) !void {
-        self.stdout.print("\n[ PHASE ] 05:30 - İlmi Kılıçlanma (Zihni Silahlandırma).\n", .{}) catch {};
-        try self.database.insert("subject_1", "Risale-i Nur Tahlilleri");
-        try self.database.insert("subject_2", "Modern Sistem Analizi");
-        self.stdout.print("[ STAT ] Bellek (RAM) hakikat ile dolduruldu.\n", .{}) catch {};
+    pub fn log_operation(self: *KayraEngine, phase: []const u8, message: []const u8) void {
+        self.stdout.print("[KAYRA.OS][{s}] {s}\n", .{ phase, message }) catch {};
     }
 
-    /// 08:00 - 18:00 | RIZIK CEPHESİ (Kavvamlık)
-    pub fn execute_rizik_cephesi(self: *KayraEngine) void {
-        self.stdout.print("\n[ PHASE ] 08:00 - Rızık Cephesi (Kavvamlık Misyonu).\n", .{}) catch {};
-        self.is_kavvam = true;
-        self.ai_core.train_intensity();
-        const decision = self.ai_core.evaluate_scenario(0.75);
-        self.stdout.print("[ STAT ] Cephe Kararı: {s}\n", .{decision}) catch {};
-    }
+    pub fn run_daily_cycle(self: *KayraEngine) !void {
+        self.log_operation("START", "Sistem Arş-ı Nizam fazında başlatıldı.");
+        
+        // 04:00 - Teheccüd
+        self.log_operation("CYCLE", "Faz 01: Teheccüd Dirilişi. Ene imha ediliyor.");
+        self.nefs_level -= 0.2;
+        
+        // 05:30 - İlim
+        self.log_operation("CYCLE", "Faz 02: İlmi Kılıçlanma. Zihin kalkanı tahkim ediliyor.");
+        self.kalkan.block_matrix_intrusion("Modern Gaflet");
 
-    /// MATRIX Savunması Simülasyonu
-    pub fn run_defense_simulation(self: *KayraEngine) void {
-        self.stdout.print("\n[ SIM ] Matrix Sızma Testi Başlatılıyor...\n", .{}) catch {};
-        _ = self.shield.block_matrix_intrusion("Sosyal Medya Dopamin Tuzağı");
-        _ = self.shield.block_matrix_intrusion("Gaflet Vesvesesi");
-        _ = self.shield.block_matrix_intrusion("Seküler Konfor Arzusu");
+        // 08:00 - Rızık
+        self.log_operation("CYCLE", "Faz 03: Rızık Cephesi. Lojistik veri akışı stabil.");
+        
+        // Tactical Scenarios
+        var runner = ScenarioRunner{ .allocator = self.allocator };
+        try runner.run_mental_siege();
+        try runner.run_social_collapse();
+
+        self.log_operation("END", "Günlük döngü tamamlandı. İhlâs seviyesi: ARŞ-I NİZAM.");
     }
 };
 
-pub fn main() anyerror!void {
+pub fn main() !void {
+    var gpa = std.heap.GeneralPurposeAllocator(.{}){};
+    const allocator = gpa.allocator();
+    defer _ = gpa.deinit();
+
     const stdout = std.io.getStdOut().writer();
+    
     try stdout.print("\n", .{});
     try stdout.print("  ██╗  ██╗ █████╗ ██╗   ██╗██████╗  █████╗ \n", .{});
     try stdout.print("  ██║ ██╔╝██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗\n", .{});
@@ -84,20 +75,9 @@ pub fn main() anyerror!void {
     try stdout.print("  ██╔═██╗ ██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║\n", .{});
     try stdout.print("  ██║  ██╗██║  ██║   ██║   ██║  ██║██║  ██║\n", .{});
     try stdout.print("  ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝\n", .{});
-    try stdout.print("\n[ INIT ] KAYRA KERNEL V2.0 - ALPEREN EDITION\n", .{});
-    
-    var gpa = std.heap.GeneralPurposeAllocator(.{}){};
-    defer _ = gpa.deinit();
-    
-    var engine = try KayraEngine.init(gpa.allocator(), stdout);
+
+    var engine = try KayraEngine.init(allocator, stdout);
     defer engine.deinit();
 
-    engine.execute_teheccud();
-    try engine.execute_ilmi_kiliclanma();
-    engine.execute_rizik_cephesi();
-    engine.run_defense_simulation();
-
-    try stdout.print("\n==================================================\n", .{});
-    try stdout.print(" SISTEM ON-LINE. NİZAM-I ALEM İÇİN HAZIR.\n", .{});
-    try stdout.print("==================================================\n\n", .{});
+    try engine.run_daily_cycle();
 }

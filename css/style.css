@@ -136,6 +136,11 @@ body {
 
 .status-circle { width: 15rem; height: 15rem; border: 4px solid var(--accent-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3rem; margin: 2rem auto; font-weight: 800; }
 
+.terminal-card { padding: 1.5rem !important; background: #000; border-color: #333; }
+.terminal-view { height: 150px; overflow-y: auto; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #0f0; padding: 10px; }
+.log-line { margin-bottom: 5px; opacity: 0.8; }
+.log-line::before { content: '> '; color: var(--accent-red); }
+
 .tab-content { display: none; }
 .tab-content.active { display: block; animation: fadeIn 0.8s ease; }
 
