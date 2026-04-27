@@ -21,10 +21,12 @@
         <ul class="nav-links">
             <li class="active" data-tab="dashboard"><i class="icon">🏛️</i> Karargah</li>
             <li data-tab="modules"><i class="icon">📜</i> Modüller</li>
+            <li data-tab="asabiyet"><i class="icon">🔗</i> Asabiyet Ağı</li>
             <li data-tab="warchest"><i class="icon">💰</i> Savaş Sandığı</li>
         </ul>
-        <div class="sidebar-quote">
-            "Kuvvetli mümin, zayıf müminden daha hayırlıdır."
+        <div class="sidebar-top-status">
+            <div class="status-indicator online"></div>
+            <span id="system-time">04:00 - Teheccüd</span>
         </div>
     </nav>
 
@@ -35,73 +37,31 @@
         <header class="top-banner">
             <img src="assets/banner.png" alt="KAYRA Banner" class="banner-img">
             <div class="banner-overlay">
-                <h2>RADİKAL İRADE. MUTLAK TEVEKKÜL.</h2>
-                <p>Kendi karanlığına hükmedemeyen, dünyaya nizam veremez.</p>
+                <h2>ARŞ-I İRADE. SİBER ASABİYET.</h2>
+                <p>Kendi mülkünde (nefsinde) asayişi sağlayamayan, cihana nizam veremez.</p>
             </div>
         </header>
 
         <!-- DASHBOARD TAB -->
         <section id="dashboard" class="tab-content active">
             <div class="grid-container">
-                
-                <!-- Daily Discipline Tracker -->
                 <div class="card discipline-card">
                     <h3 class="card-title">Günlük İrade Testi (Nefs Terbiyesi)</h3>
                     <div class="progress-container">
                         <div class="progress-bar" id="daily-progress"></div>
                     </div>
                     <ul class="checklist" id="daily-checklist">
-                        <li>
-                            <label class="custom-checkbox">
-                                <input type="checkbox" data-points="15" id="task-teheccud">
-                                <span class="checkmark"></span>
-                                <span class="task-text">04:00 | İlahi Nöbet (Teheccüd Dirilişi)</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="custom-checkbox">
-                                <input type="checkbox" data-points="15" id="task-ilim">
-                                <span class="checkmark"></span>
-                                <span class="task-text">05:30 | İlmi Kılıçlanma (Zihni Silahlandırma)</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="custom-checkbox">
-                                <input type="checkbox" data-points="20" id="task-rizik">
-                                <span class="checkmark"></span>
-                                <span class="task-text">08:00 | Rızık Cephesi (Kavvamlık / Nizam)</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="custom-checkbox">
-                                <input type="checkbox" data-points="20" id="task-demir">
-                                <span class="checkmark"></span>
-                                <span class="task-text">18:30 | Demirin Hakkı ve Kan (Kinetik İnşa)</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="custom-checkbox">
-                                <input type="checkbox" data-points="15" id="task-cemal">
-                                <span class="checkmark"></span>
-                                <span class="task-text">20:00 | Cemal Vakti (Aile ve İhvan)</span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="custom-checkbox">
-                                <input type="checkbox" data-points="15" id="task-memento">
-                                <span class="checkmark"></span>
-                                <span class="task-text">22:30 | Memento Mori (Mutlak Teslimiyet)</span>
-                            </label>
-                        </li>
+                        <li><label class="custom-checkbox"><input type="checkbox" data-points="15" id="task-teheccud"><span class="checkmark"></span><span class="task-text">04:00 | İlahi Nöbet (Teheccüd)</span></label></li>
+                        <li><label class="custom-checkbox"><input type="checkbox" data-points="15" id="task-ilim"><span class="checkmark"></span><span class="task-text">05:30 | İlmi Kılıçlanma</span></label></li>
+                        <li><label class="custom-checkbox"><input type="checkbox" data-points="20" id="task-rizik"><span class="checkmark"></span><span class="task-text">08:00 | Rızık Cephesi (Kavvamlık)</span></label></li>
+                        <li><label class="custom-checkbox"><input type="checkbox" data-points="20" id="task-demir"><span class="checkmark"></span><span class="task-text">18:30 | Demirin Hakkı (Kinetik)</span></label></li>
+                        <li><label class="custom-checkbox"><input type="checkbox" data-points="15" id="task-cemal"><span class="checkmark"></span><span class="task-text">20:00 | Cemal Vakti (İhvan)</span></label></li>
+                        <li><label class="custom-checkbox"><input type="checkbox" data-points="15" id="task-memento"><span class="checkmark"></span><span class="task-text">22:30 | Memento Mori</span></label></li>
                     </ul>
                 </div>
-
-                <!-- Status / Rank -->
                 <div class="card status-card">
                     <h3 class="card-title">Operasyonel Durum</h3>
-                    <div class="status-circle">
-                        <span id="completion-text">0%</span>
-                    </div>
+                    <div class="status-circle"><span id="completion-text">0%</span></div>
                     <p class="status-desc" id="status-desc">Uyku Modu. İradeyi kuşan.</p>
                 </div>
             </div>
@@ -114,33 +74,55 @@
                 <div class="module-card card">
                     <h4>01. Biyolojik Sermaye</h4>
                     <p>Sünnet beslenme, ağır demir, oruç ve heybetli vücut dili.</p>
-                    <button class="btn read-more" onclick="showModuleDetail('bio')">Protokolü İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('bio')">İncele</button>
                 </div>
                 <div class="module-card card">
                     <h4>02. Zihinsel Mühendislik</h4>
                     <p>Gaflet detoksu, sabr-ı cemil, tevekkül ve kriz anında feraset.</p>
-                    <button class="btn read-more" onclick="showModuleDetail('mental')">Protokolü İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('mental')">İncele</button>
                 </div>
                 <div class="module-card card">
                     <h4>03. Sosyal Strateji</h4>
                     <p>Kavvamlık şefaati, fasıkları eleme, İhvan ve kardeşlik ağı.</p>
-                    <button class="btn read-more" onclick="showModuleDetail('social')">Protokolü İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('social')">İncele</button>
                 </div>
                 <div class="module-card card">
                     <h4>04. Lojistik ve Güç</h4>
                     <p>Faizsiz sermaye (Helal nakit), savaş sandığı ve entelektüel zırh.</p>
-                    <button class="btn read-more" onclick="showModuleDetail('logic')">Protokolü İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('logic')">İncele</button>
+                </div>
+                <div class="module-card card highlight">
+                    <h4>05. Siber Vakıf ve Zunji</h4>
+                    <p>Dijital sadaka-i cariye, vasiyet ve bekâ stratejisi.</p>
+                    <button class="btn read-more" onclick="showModuleDetail('legacy')">İncele</button>
                 </div>
             </div>
-
-            <!-- Detail View Modal (Glassmorphism) -->
             <div id="module-modal" class="modal">
                 <div class="modal-content card">
                     <span class="close-btn" onclick="closeModal()">&times;</span>
                     <h2 id="modal-title" class="card-title">Protokol Detayı</h2>
-                    <div id="modal-body" class="modal-text-content">
-                        <!-- Content will be injected by JS -->
-                    </div>
+                    <div id="modal-body" class="modal-text-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ASABIYET TAB -->
+        <section id="asabiyet" class="tab-content">
+            <h2 class="section-heading">İhvan-ı Safa (Network Status)</h2>
+            <div class="card asabiyet-card">
+                <div class="network-viz" id="network-viz">
+                    <!-- Simulated Network Nodes -->
+                    <div class="node nakip" style="top: 20%; left: 50%;"><span>NAKİP</span></div>
+                    <div class="node ihvan" style="top: 50%; left: 20%;"><span>İHVAN_01</span></div>
+                    <div class="node ihvan" style="top: 50%; left: 80%;"><span>İHVAN_02</span></div>
+                    <div class="node hadim" style="top: 70%; left: 40%;"><span>HADİM</span></div>
+                    <div class="node talip" style="top: 80%; left: 60%;"><span>TALİP</span></div>
+                    <div class="link" style="width: 150px; transform: rotate(135deg); top: 35%; left: 35%;"></div>
+                    <div class="link" style="width: 150px; transform: rotate(45deg); top: 35%; left: 50%;"></div>
+                </div>
+                <div class="asabiyet-stats">
+                    <p>Aktif Hücre Gücü: <strong id="asabiyet-power">14.5 KKN</strong></p>
+                    <p>Kenetlenme Durumu: <strong style="color: var(--gold);">FETİH KADROSU</strong></p>
                 </div>
             </div>
         </section>
@@ -148,22 +130,10 @@
         <!-- WAR CHEST TAB -->
         <section id="warchest" class="tab-content">
             <div class="card warchest-card">
-                <h3 class="card-title">Savaş Sandığı Rezervi (Lojistik)</h3>
-                <p>İsrafı kes. Ribanın (Faizin) kölesi olma. Özgürlüğünü nakit mermilerle satın al.</p>
-                
-                <div class="input-group">
-                    <label>Aylık Helal Birikim Hedefi (₺)</label>
-                    <input type="number" id="target-saving" value="10000">
-                </div>
-                
-                <div class="input-group">
-                    <label>Mevcut Rezerve Edilen (₺)</label>
-                    <input type="number" id="current-saving" value="0">
-                </div>
-                
-                <div class="saving-visual">
-                    <div class="saving-fill" id="saving-fill"></div>
-                </div>
+                <h3 class="card-title">Ahi Sandığı (War Chest)</h3>
+                <div class="input-group"><label>Aylık Helal Birikim Hedefi</label><input type="number" id="target-saving" value="10000"></div>
+                <div class="input-group"><label>Mevcut Rezerve Edilen</label><input type="number" id="current-saving" value="0"></div>
+                <div class="saving-visual"><div class="saving-fill" id="saving-fill"></div></div>
                 <button class="btn calculate-btn" id="update-chest">Lojistiği Güncelle</button>
             </div>
         </section>
