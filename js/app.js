@@ -88,6 +88,42 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('kayra_warchest', JSON.stringify({target, current}));
     };
 
+    // Protocol Data for Modals
+    const protocolData = {
+        bio: {
+            title: "01. BİYOLOJİK SERMAYE",
+            content: `<h3>Sünnet Beslenme ve Oruç</h3><p>Alperen, midenin üçte birini gıdaya, üçte birini suya ayıran <strong>Sünnetullah</strong> üzere yaşar. İşlenmiş sentetik gıdalar iradeyi felç eden biyokimyasal silahlardır.</p><h3>Vücut Dili</h3><p>Dik bir duruş, kararlı bakışlar ve heybetli bir vakar... Kuvvetli mümin, zayıf müminden daha hayırlıdır.</p><h3>Aksiyon</h3><p>Haftalık Pazartesi-Perşembe oruçları ve ağır direnç antrenmanları biyolojik donanımı şahlandırır.</p>`
+        },
+        mental: {
+            title: "02. ZİHİNSEL MÜHENDİSLİK",
+            content: `<h3>Gaflet Detoksu</h3><p>Dopamin sarmalından kurtulmak için dijital izolasyon ve tefekkür şarttır. Matrix'in vesveselerine karşı <strong>Zihinsel Kalkan</strong> örülür.</p><h3>Tevekkül ve Rıza</h3><p>Kriz anında "Hasbunallah" frekansına geçmek ve neticeden razı olmak, stoacılığın ötesindeki Alperen derinliğidir. Kader, gayrete aşıktır.</p>`
+        },
+        social: {
+            title: "03. SOSYAL STRATEJİ",
+            content: `<h3>Kavvamlık</h3><p>Erkeğin asli vazifesi evini ve sevdiklerini zehirli kültürden koruyan bir <strong>Barikat</strong> olmaktır. Adaletle yönet, merhametle kolla.</p><h3>İhvan Ağı</h3><p>Fasıkları ele, sırtını dayayabileceğin sadık kardeşlerle bir Siber-Asabiyet kur. Kardeşlik asıldır.</p>`
+        },
+        logic: {
+            title: "04. LOJİSTİK VE GÜÇ",
+            content: `<h3>Ahi Sandığı</h3><p>Parasız dava edebiyattır. <strong>War Chest</strong> (Savaş Sandığı) özgürlük mermindir. Faizin (Riba) kölesi olma. Kendi helal ekosistemini kur.</p><h3>Helal Kazanç</h3><p>Ticarette dürüstlük, yüksek katma değer ve infak kültürü... Lojistik, ebedi cihadın yakıtıdır.</p>`
+        }
+    };
+
+    window.showModuleDetail = (key) => {
+        const data = protocolData[key];
+        document.getElementById('modal-title').innerText = data.title;
+        document.getElementById('modal-body').innerHTML = data.content;
+        document.getElementById('module-modal').style.display = 'block';
+    };
+
+    window.closeModal = () => {
+        document.getElementById('module-modal').style.display = 'none';
+    };
+
+    window.onclick = (event) => {
+        const modal = document.getElementById('module-modal');
+        if (event.target == modal) closeModal();
+    };
+
     // Events
     checklist.addEventListener('change', updateProgress);
     

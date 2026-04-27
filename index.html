@@ -111,25 +111,36 @@
         <section id="modules" class="tab-content">
             <h2 class="section-heading">Protokol Modülleri</h2>
             <div class="modules-grid">
-                <div class="module-card">
+                <div class="module-card card">
                     <h4>01. Biyolojik Sermaye</h4>
                     <p>Sünnet beslenme, ağır demir, oruç ve heybetli vücut dili.</p>
-                    <button class="btn read-more">Okulları İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('bio')">Protokolü İncele</button>
                 </div>
-                <div class="module-card">
+                <div class="module-card card">
                     <h4>02. Zihinsel Mühendislik</h4>
                     <p>Gaflet detoksu, sabr-ı cemil, tevekkül ve kriz anında feraset.</p>
-                    <button class="btn read-more">Okulları İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('mental')">Protokolü İncele</button>
                 </div>
-                <div class="module-card">
+                <div class="module-card card">
                     <h4>03. Sosyal Strateji</h4>
                     <p>Kavvamlık şefaati, fasıkları eleme, İhvan ve kardeşlik ağı.</p>
-                    <button class="btn read-more">Okulları İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('social')">Protokolü İncele</button>
                 </div>
-                <div class="module-card">
+                <div class="module-card card">
                     <h4>04. Lojistik ve Güç</h4>
                     <p>Faizsiz sermaye (Helal nakit), savaş sandığı ve entelektüel zırh.</p>
-                    <button class="btn read-more">Okulları İncele</button>
+                    <button class="btn read-more" onclick="showModuleDetail('logic')">Protokolü İncele</button>
+                </div>
+            </div>
+
+            <!-- Detail View Modal (Glassmorphism) -->
+            <div id="module-modal" class="modal">
+                <div class="modal-content card">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <h2 id="modal-title" class="card-title">Protokol Detayı</h2>
+                    <div id="modal-body" class="modal-text-content">
+                        <!-- Content will be injected by JS -->
+                    </div>
                 </div>
             </div>
         </section>
