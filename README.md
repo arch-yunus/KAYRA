@@ -125,6 +125,8 @@ Ahdin sembolleşti. Karargah protokollerini bekler. Uyan, zinciri kır ve dünya
 
 ---
 
+![Futuwwa Banner](assets/futuwwa_banner.png)
+
 ## 🛰️ VIII. SİBER-ASABİYET VE DİJİTAL SİPERLER: ALGORİTMALARA KARŞI CİHAD
 
 *“Zihinleri köleleştirmek, bedenleri köleleştirmekten daha derin bir zulümdür.”*
