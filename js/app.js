@@ -1,120 +1,101 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-    /* --- Tab Navigation --- */
-    const navItems = document.querySelectorAll('.nav-links li');
+    const checklist = document.getElementById('daily-checklist');
+    const progressBar = document.getElementById('daily-progress');
+    const completionText = document.getElementById('completion-text');
+    const statusDesc = document.getElementById('status-desc');
+    const updateChestBtn = document.getElementById('update-chest');
+    const navLinks = document.querySelectorAll('.nav-links li');
     const tabContents = document.querySelectorAll('.tab-content');
 
-    navItems.forEach(item => {
-        item.addEventListener('click', () => {
-            // Remove active classes
-            navItems.forEach(n => n.classList.remove('active'));
-            tabContents.forEach(t => t.classList.remove('active'));
+    const ranks = [
+        "Gafil (Uykuda)",
+        "Nefs-i Emmare",
+        "Nefs-i Levvame",
+        "Fütüvvet Yolcusu",
+        "Alperen (Gazi-Derviş)"
+    ];
 
-            // Add active class to clicked item
-            item.classList.add('active');
+    // Tab Navigation
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            const target = link.dataset.tab;
             
-            // Show corresponding tab
-            const tabId = item.getAttribute('data-tab');
-            document.getElementById(tabId).classList.add('active');
+            navLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+            
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+                if (content.id === target) content.classList.add('active');
+            });
         });
     });
 
-    /* --- Daily Discipline Tracker --- */
-    const checkboxes = document.querySelectorAll('#daily-checklist input[type="checkbox"]');
-    const progressBar = document.getElementById('daily-progress');
-    const percentText = document.getElementById('completion-text');
-    const statusDesc = document.getElementById('status-desc');
-    const statusCircle = document.querySelector('.status-circle');
-
-    // Load saved state
-    const today = new Date().toDateString();
-    let savedData = JSON.parse(localStorage.getItem('kayra_daily')) || {};
-    
-    if(savedData.date !== today) {
-        // Reset if it's a new day
-        savedData = { date: today, checks: [false, false, false, false] };
-        localStorage.setItem('kayra_daily', JSON.stringify(savedData));
-    }
-
-    checkboxes.forEach((cb, index) => {
-        cb.checked = savedData.checks[index];
-        cb.addEventListener('change', updateProgress);
-    });
-
-    function updateProgress() {
-        let points = 0;
-        let checksArr = [];
-
-        checkboxes.forEach((cb, index) => {
-            checksArr[index] = cb.checked;
-            if(cb.checked) {
-                points += parseInt(cb.getAttribute('data-points'));
-            }
+    // Load State
+    const loadState = () => {
+        const saved = JSON.parse(localStorage.getItem('kayra_state') || '{}');
+        checklist.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            if (saved[cb.id]) cb.checked = true;
         });
-
-        // Save state
-        savedData.checks = checksArr;
-        localStorage.setItem('kayra_daily', JSON.stringify(savedData));
-
-        // Update UI
-        progressBar.style.width = points + '%';
-        percentText.innerText = points + '%';
-
-        // Update Status
-        if(points === 0) {
-            statusDesc.innerText = "Derin Gaflet. Kalk ve savaş.";
-            statusCircle.style.borderColor = "rgba(255, 255, 255, 0.1)";
-            statusCircle.style.color = "rgba(255, 255, 255, 0.5)";
-        } else if(points <= 50) {
-            statusDesc.innerText = "Hazırlık Evresi. Disiplini artır.";
-            statusCircle.style.borderColor = "#ff9800";
-            statusCircle.style.color = "#ff9800";
-        } else if(points <= 75) {
-            statusDesc.innerText = "Yüksek Şuur. Direncini koru.";
-            statusCircle.style.borderColor = "#00d4ff";
-            statusCircle.style.color = "#00d4ff";
-        } else {
-            statusDesc.innerText = "MUTLAK ALPEREN. Nizam sağlandı.";
-            statusCircle.style.borderColor = "#00e676";
-            statusCircle.style.color = "#00e676";
-            statusCircle.style.boxShadow = "0 0 20px rgba(0, 230, 118, 0.5)";
-        }
-    }
-
-    // Init progress on load
-    updateProgress();
-
-    /* --- War Chest Logic --- */
-    const targetInput = document.getElementById('target-saving');
-    const currentInput = document.getElementById('current-saving');
-    const savingFill = document.getElementById('saving-fill');
-    const updateChestBtn = document.getElementById('update-chest');
-
-    // Load saved chest data
-    const savedChest = JSON.parse(localStorage.getItem('kayra_warchest'));
-    if(savedChest) {
-        targetInput.value = savedChest.target;
-        currentInput.value = savedChest.current;
-    }
-
-    function updateChest() {
-        const target = parseFloat(targetInput.value) || 1;
-        const current = parseFloat(currentInput.value) || 0;
         
-        let percentage = (current / target) * 100;
-        if(percentage > 100) percentage = 100;
+        const warchest = JSON.parse(localStorage.getItem('kayra_warchest') || '{"target": 10000, "current": 0}');
+        document.getElementById('target-saving').value = warchest.target;
+        document.getElementById('current-saving').value = warchest.current;
+        
+        updateProgress();
+        updateWarChestVisuals();
+    };
 
-        savingFill.style.width = percentage + '%';
+    // Save State
+    const saveState = () => {
+        const state = {};
+        checklist.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            state[cb.id] = cb.checked;
+        });
+        localStorage.setItem('kayra_state', JSON.stringify(state));
+    };
 
-        localStorage.setItem('kayra_warchest', JSON.stringify({
-            target: target,
-            current: current
-        }));
-    }
+    const updateProgress = () => {
+        const checkboxes = checklist.querySelectorAll('input[type="checkbox"]');
+        let totalPoints = 0;
+        let earnedPoints = 0;
 
-    updateChestBtn.addEventListener('click', updateChest);
+        checkboxes.forEach(cb => {
+            const points = parseInt(cb.dataset.points);
+            totalPoints += points;
+            if (cb.checked) earnedPoints += points;
+        });
+
+        const percentage = Math.round((earnedPoints / totalPoints) * 100) || 0;
+        progressBar.style.width = `${percentage}%`;
+        completionText.innerText = `${percentage}%`;
+
+        // Update Rank
+        let rankIndex = Math.floor(percentage / 21);
+        if (rankIndex >= ranks.length) rankIndex = ranks.length - 1;
+        statusDesc.innerHTML = `Makam: <strong>${ranks[rankIndex]}</strong>`;
+        
+        saveState();
+    };
+
+    const updateWarChestVisuals = () => {
+        const target = parseFloat(document.getElementById('target-saving').value) || 1;
+        const current = parseFloat(document.getElementById('current-saving').value) || 0;
+        const fill = document.getElementById('saving-fill');
+        
+        const percentage = Math.min(Math.round((current / target) * 100), 100);
+        fill.style.width = `${percentage}%`;
+        
+        localStorage.setItem('kayra_warchest', JSON.stringify({target, current}));
+    };
+
+    // Events
+    checklist.addEventListener('change', updateProgress);
     
-    // Init warchest on load
-    setTimeout(updateChest, 500);
+    updateChestBtn.addEventListener('click', () => {
+        updateWarChestVisuals();
+        alert("Lojistik sandığı güncellendi. Bereketli olsun!");
+    });
 
+    // Initial Load
+    loadState();
 });

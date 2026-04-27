@@ -1,6 +1,10 @@
 const std = @import("std");
 
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
+/// ==============================================================================
+/// FUTUWWA NEURAL CORE - KAYRA SYSTEM v2.0
+/// Alp (Celal) ve Eren (Cemal) dengesini simüle eden karar çekirdeği.
+/// ==============================================================================
+
 pub const FutuwwaNode = struct {
     weight: f32,
     bias: f32,
@@ -8,289 +12,44 @@ pub const FutuwwaNode = struct {
 };
 
 pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
+    celal_bias: f32, // Savaşçı/Sertlik ekseni
+    cemal_bias: f32, // Derviş/Merhamet ekseni
+    patience: f32,
     
     pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
+        return FutuwwaAI{
+            .celal_bias = 0.5,
+            .cemal_bias = 0.5,
+            .patience = 1.0,
         };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
     }
 
+    /// Sabır eğitimini simüle eder, Eren (Cemal) dengesini artırır.
     pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
+        self.patience += 0.1;
+        self.cemal_bias += 0.05;
+        self.celal_bias -= 0.02;
     }
     
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
+    /// Hiddet ve kinetiği simüle eder, Alp (Celal) dengesini artırır.
+    pub fn train_intensity(self: *FutuwwaAI) void {
+        self.celal_bias += 0.1;
+        self.cemal_bias -= 0.05;
+        self.patience -= 0.02;
+    }
+
+    /// Gelen bir duruma karşı Alperen tepkisini hesaplar.
+    pub fn evaluate_scenario(self: *FutuwwaAI, threat_level: f32) []const u8 {
+        const response_intensity = (threat_level * self.celal_bias) - (self.patience * self.cemal_bias);
+        
+        if (response_intensity > 0.8) {
+            return "ZÜLFİKAR ÇEKİLDİ: Mutlak Celal ile müdahale ediliyor.";
+        } else if (response_intensity > 0.4) {
+            return "KAVVAMİYET: Düzen ve otorite tesis ediliyor.";
+        } else if (response_intensity > -0.2) {
+            return "İSTİKAMET: Sabır ve vakar ile yol alınıyor.";
+        } else {
+            return "SIRR-I İHLAS: Derin tefekkür ve Cemal tecellisi.";
+        }
     }
 };
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
-const std = @import("std");
-
-/// Fütüvvet Ahlakını Temsil Eden Karar Ağacı
-pub const FutuwwaNode = struct {
-    weight: f32,
-    bias: f32,
-    is_active: bool,
-};
-
-pub const FutuwwaAI = struct {
-    layer1: [64]FutuwwaNode,
-    layer2: [32]FutuwwaNode,
-    layer3: [16]FutuwwaNode,
-    
-    pub fn init() FutuwwaAI {
-        var ai = FutuwwaAI{
-            .layer1 = undefined,
-            .layer2 = undefined,
-            .layer3 = undefined,
-        };
-        for (&ai.layer1) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer2) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        for (&ai.layer3) |*n| { n.* = FutuwwaNode{.weight=1.0, .bias=0.0, .is_active=false}; }
-        return ai;
-    }
-
-    pub fn train_patience(self: *FutuwwaAI) void {
-        for (&self.layer1) |*n| { n.weight *= 1.1; }
-        for (&self.layer2) |*n| { n.weight *= 1.2; }
-    }
-    
-    pub fn execute_decision(_: *FutuwwaAI, input: f32) f32 {
-        var res = input * 1.5;
-        return res;
-    }
-};
-
